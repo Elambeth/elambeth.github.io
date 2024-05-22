@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethan Lambeth</title>
     <link rel="stylesheet" href="app.css">
+    <link rel="icon" href="lightbuecircle.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,37 +20,51 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="welcome">
-            <h2>Welcome</h2>
-            <p>Welcome to my personal website where I share my thoughts, experiences, and projects.</p>
-        </section>
-        
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hi, I'm Ethan! Here's a bit about me...</p>
-        </section>
-        
-        <section id="blog">
-            <h2>Blog</h2>
-            <p>Check out my latest blog posts:</p>
-            <article>
-                <h3>Blog Post Title 1</h3>
-                <p>Summary of the blog post...</p>
-                <a href="blogpost1.html">Read more</a>
-            </article>
-            <article>
-                <h3>Blog Post Title 2</h3>
-                <p>Summary of the blog post...</p>
-                <a href="blogpost2.html">Read more</a>
-            </article>
-        </section>
-        
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>If you'd like to get in touch, please contact me at <a href="mailto:ethan@example.com">ethan@example.com</a>.</p>
-        </section>
-    </main>
+    <div class="container">
+        <main>
+            <a href="index.html" class="box-link">
+                <section id="welcome" class="box">
+                    <h2>Welcome</h2>
+                    <p>Welcome to my personal website where I share my thoughts, experiences, and projects.</p>
+                </section>
+            </a>
+            
+            <a href="about.html" class="box-link">
+                <section id="about" class="box">
+                    <h2>About Me</h2>
+                    <p>Hi, I'm Ethan! Here's a bit about me...</p>
+                </section>
+            </a>
+            
+            <a href="blog.html" class="box-link">
+                <section id="blog" class="box">
+                    <h2>Blog</h2>
+                    <p>Check out my latest blog posts:</p>
+                    <a href="codingagain.html" class="box-link">
+                        <article class="box">
+                            <h3>Coding Again</h3>
+                            <p>You are reading my first coding project in 6 Months!</p>
+                            <span>Read more</span>
+                        </article>
+                    </a>
+                    <a href="blogpost2.html" class="box-link">
+                        <article class="box">
+                            <h3>Blog Post Title 2</h3>
+                            <p>Summary of the blog post...</p>
+                            <span>Read more</span>
+                        </article>
+                    </a>
+                </section>
+            </a>
+            
+            <a href="contact.html" class="box-link">
+                <section id="contact" class="box">
+                    <h2>Contact</h2>
+                    <p>If you'd like to get in touch, please contact me at <a href="mailto:elambethnz@gmail.com">elambethnz@gmail.com</a>.</p>
+                </section>
+            </a>
+        </main>
+    </div>
     <footer>
         <p>&copy; 2024 Ethan Lambeth</p>
     </footer>
